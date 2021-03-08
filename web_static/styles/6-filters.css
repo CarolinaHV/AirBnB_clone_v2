@@ -1,0 +1,87 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border: 1px #DDDDDD solid;
+    height: 70px;
+    width: 100%;
+    border-radius: 4px;
+    
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    
+}
+
+.locations {
+    border-right: 1px #DDDDDD solid;
+    
+}
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+    margin-left: 35px;
+    margin-top: 15px;
+    
+}
+
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 35px;
+    margin-top: 5px;
+    
+}
+
+.popover {
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px #DDDDDD solid;
+    border-radius: 4px;
+    margin-top: 15px;
+    list-style-type: none;
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+			       display: block;
+}
+
+.popover li h2 {
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.popover li {
+    list-style-type: none;
+    margin-left: 45px;
+    line-height: 185%;
+    
+}
+
+button{
+    font-size: 18px;
+    background-color: #ff5a5f;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 30px;
+    
+}
+
+button:hover {
+    opacity: 0.9;
+    
+}
