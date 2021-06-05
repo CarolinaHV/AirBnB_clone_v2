@@ -66,6 +66,7 @@ def do_deploy(archive_path):
         return False
     return True
 
+
 def deploy():
     '''
         Interface for set-up functions
