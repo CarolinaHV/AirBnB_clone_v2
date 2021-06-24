@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
 """
 DataBase Storage
+
 """
 
 import os
@@ -32,8 +32,7 @@ class DBStorage:
         db = os.environ['HBNB_MYSQL_DB']
 
         self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'
-                                      .format(user,
-                                             pas, host, db,
+                                      .format(user, pas, host, db,
                                               pool_pre_ping=True))
 
         if os.getenv('HBNB_ENV') == 'test':
